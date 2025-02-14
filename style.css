@@ -1,4 +1,5 @@
-
+ 
+ 
  header{
     background-image: url(images/pic1.jpg);
     background-size: 100% 120%;
@@ -108,6 +109,64 @@
     border: solid 15px springgreen;
   }
 
+ 
+  .div7{
+    width: 100%;
+    height: 450px;
+    background-color: palegoldenrod;
+    border: solid palegoldenrod;
+    margin-top: 50px;
+  }
+  .div8{
+    margin-top: 120px;
+    margin-left: 20px;
+    width: 20%;
+    height: 200px;
+    border: solid green;
+    animation: infinite;
+    animation-name: umer;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    rotate: 0deg;
+  }
+  h1{
+    animation-name: umer;
+  }
+  @keyframes umer {
+    0% {background-color: blue; margin-left: 100px; rotate: 20deg;}
+    25% {background-color: pink; margin-left: 300px; rotate: 50deg;}
+    50% {background-color: lightblue; margin-left: 600px; rotate: 100deg;}
+    75% {background-color: lightgreen; margin-left: 800px; rotate: 150deg;}
+    100% {background-color: yellow; margin-left: 1000px; rotate: 220deg;} 
+  }
+ 
+  .div9{
+    width: 100%;
+    
+    height: 500px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+  }
+  .umer{
+    width: 30%;
+    height: 400px;
+    margin-left: 40px;
+    
+  }
+  .umer1{
+    width: 30%;
+    height: 400px;
+    margin-left: 40px;
+    
+  }
+  #gap{
+    margin-left: 80px;
+    text-align: center;
+    margin-top: 100px;
+    color: blue;
+  }
+  
   
 
 
@@ -202,6 +261,67 @@
      height: 300px;
      margin-left: 10px;
    }
+
+
+   .div7{
+    width: 100%;
+    height: 400px;
+  
+    margin-top: 100px;
+  }
+  .div8{
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    width: 40%;
+    height: 200px;
+    border: solid green;
+    animation: infinite;
+    animation-name: umer;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    rotate: 0deg;
+  }
+  h1{
+    animation-name: umer;
+  }
+  @keyframes umer {
+    0% {background-color: blue; margin-left: 0px; rotate: 0deg;}
+    25% {background-color: pink; margin-left: 100px; rotate: 50deg;}
+    50% {background-color: lightblue; margin-left: 150px; rotate: 100deg;}
+    75% {background-color: lightgreen; margin-left: 200px; rotate: 150deg;}
+    100% {background-color: yellow; margin-left: 250px; rotate: 180deg;} 
+  }
+
+
+
+
+  .div9{
+    width: 100%;
+   
+    height: 1100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .umer{
+    width: 60%;
+    height: 400px;
+    margin-left: 80px;
+    
+  }
+  .umer1{
+    width: 60%;
+    height: 400px;
+    margin-left: 80px;
+    margin-top: 50px;
+  }
+  #gap{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+  }
+
    
 }
 
@@ -353,6 +473,35 @@
     height: 300px;
     margin-left: 10px;
   }
+
+
+  .div7{
+    width: 100%;
+    height: 400px;
+    margin-top: 100px;
+  }
+  .div8{
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    width: 40%;
+    height: 200px;
+    border: solid green;
+    animation: infinite;
+    animation-name: umer;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    rotate: 0deg;
+  }
+  h1{
+    animation-name: umer;
+  }
+  @keyframes umer {
+    0% {background-color: blue; margin-left: 0px; rotate: 0deg;}
+    25% {background-color: pink; margin-left: 80px; rotate: 50deg;}
+    50% {background-color: lightblue; margin-left: 130px; rotate: 100deg;}
+    75% {background-color: lightgreen; margin-left: 180px; rotate: 150deg;}
+    100% {background-color: yellow; margin-left: 230px; rotate: 180deg;} 
+  }
    
 }
 
@@ -424,6 +573,63 @@
     height: 300px;
     margin-left: 10px;
   }
+
+  .div7{
+    width: 100%;
+    height: 400px;
+  
+    margin-top: 100px;
+  }
+  .div8{
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    width: 50%;
+    height: 200px;
+    border: solid green;
+    animation: infinite;
+    animation-name: umer;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    rotate: 0deg;
+  }
+  h1{
+    animation-name: umer;
+  }
+  @keyframes umer {
+    0% {background-color: blue; margin-left: 0px; rotate: 0deg;}
+    25% {background-color: pink; margin-left: 40px; rotate: 50deg;}
+    50% {background-color: lightblue; margin-left: 90px; rotate: 100deg;}
+    75% {background-color: lightgreen; margin-left: 120px; rotate: 150deg;}
+    100% {background-color: yellow; margin-left: 140px; rotate: 180deg;} 
+  }
+
+  .div9{
+    width: 100%;
+   
+    height: 1100px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+  }
+  .umer{
+    width: 60%;
+    height: 400px;
+    margin-left: 50px;
+    
+  }
+  .umer1{
+    width: 60%;
+    height: 400px;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  #gap{
+    margin-left: 10px;
+    text-align: center;
+    margin-top: 50px;
+    color: blue;
+  }
+
    
 }
 
@@ -435,6 +641,7 @@
 @media (max-width:250px){
   header{
    min-height: 850px !important;
+   width: 100%;
   } 
  
  .div5{
@@ -462,7 +669,7 @@
    }
 
    .center{
-    width: 100%;
+    width: 105%;
     display: flex;
     flex-direction: column;
     margin-top: 10px;
@@ -495,6 +702,38 @@
     width: 80%;
     height: 300px;
     margin-left: 10px;
+  }
+
+
+
+
+  .div7{
+    width: 105%;
+    height: 400px;
+  
+    margin-top: 100px;
+  }
+  .div8{
+    margin-top: 100px;
+    /* margin-left: 20px; */
+    width: 55%;
+    height: 180px;
+    border: solid green;
+    animation: infinite;
+    animation-name: umer;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    rotate: 0deg;
+  }
+  h1{
+    animation-name: umer;
+  }
+  @keyframes umer {
+    0% {background-color: blue; margin-left: 0px; rotate: 0deg;}
+    25% {background-color: pink; margin-left: 30px; rotate: 50deg;}
+    50% {background-color: lightblue; margin-left: 60px; rotate: 100deg;}
+    75% {background-color: lightgreen; margin-left: 90px; rotate: 150deg;}
+    100% {background-color: yellow; margin-left: 110px; rotate: 180deg;} 
   }
    
 }
